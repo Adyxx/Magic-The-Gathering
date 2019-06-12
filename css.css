@@ -7,13 +7,11 @@ background-size: cover;
 position: relative;
 }
 
-
 #oko{
 margin-left: 15%;
 margin-right:15%;
 background-color: white;
 padding: 40px;
-
 width: 70%;
 height: 100%;
 }
@@ -41,12 +39,16 @@ height: 100%;
   text-align: justify;
 }
 
-a{
+a,a:active,a:hover{
   color: red;
 }
 
+
 h5,h3,h2,h1{
     font-family: 'Merriweather', serif;
+}
+h1{
+  margin-left: -5%;
 }
 h2{
   margin-left: 10px;
@@ -65,4 +67,89 @@ h6{
   color: white;
   padding: 20px;
   text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.divi {
+  text-align: center;
+  float: left;
+  width: 40%;
+  padding: 20px;
+height: 380px;
+
+}
+
+.articli {
+  float: left;
+  width: 60%;
+  height: 380px;
+  padding: 20px;
+  text-align: justify;
+}
+.tlacitko{
+  text-align: right;
+}
+@media (max-width: 1200px) {
+  h1{
+    margin-left: 5%;
+    font-size: 165%;
+    text-align: center;
+  }
+  .tlacitko{
+    font-size: 165%;
+    text-align: center;
+}
+}
+@media (max-width: 833px) {
+  .divi, .articli {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  #okoko {
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: black;
+    color: black;
+  }
+  #momomo{ 
+  margin-left: 10%;
+  margin-right:10%;  
+  background-color: white;
+}
+#oko{
+  margin-left: 10%;
+  margin-right:10%;
+  background-color: white;
+  padding: 40px;
+  width: 80%;
+  height: 100%;
+  }
+  h1{
+    margin-left: 5%;
+    font-size: 150%;
+    text-align: center;
+  }
+  .tlacitko{
+    text-align: center;
+}
+}
+
+.green{
+  margin-right: 25%;
+  margin-left:25%;
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .green{
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-align: center;
+  }
 }

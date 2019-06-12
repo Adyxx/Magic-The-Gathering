@@ -20,8 +20,8 @@
         <body>
                 <div id="lololo">
                     <div id="oko" class="row">
-                        <div class="col-sm-6 col-lg-6 col-md-6 col-xs-6"><h1><b>Magic: The Gathering</b></h1></div>
-                              <div class="col-sm-6 col-lg-6 col-md-6 col-xs-6" style="text-align: right;">
+                        <div class="col-lg-6"><h1><b>Magic: The Gathering</b></h1></div>
+                              <div class="tlacitko col-lg-6">
                                   <div class="btn-group">
                                       <button style="border: black 1px solid; background: linear-gradient(135deg, #000000, #ff0000); color: white;" class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                           aria-expanded="false">
@@ -35,7 +35,7 @@
                                         <a class="dropdown-item" href="index2.html">Průběh kola</a>
                                         <a class="dropdown-item" href="index5.html">Schopnosti karet</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="index6.html">Typy karet</a>
+                                        <a class="dropdown-item" href="index6.html">Druhy karet</a>
                                       </div>
                                     </div>
                               </div>
@@ -57,47 +57,39 @@
             Hráči si do ruky vezmou 7 karet z vrchu jejich balíčků. Pokud je někdo ze svými kartami nespokojený, tak si může líznout karty nové.
             Pokaždé, když tak však učiní, tak si bere o 1 kartu méně. Ti, kteří si karty vyměnili se smí podívat na 1. kartu 
             svého balíčku a rozhodnout se zda ji chcou umístit na vrch či spod balíčku.
-            Hra začíná tahem některého z hráčů, který momentálně nemá jinou možnost než vyložit <a href="index6.html">zemi</a> ze své ruky. </p>
+            Hra začíná tahem některého z hráčů, který momentálně nemá jinou možnost než vyložit <a href="index6.html">zemi</a> ze své ruky
+           (max 1 za kolo). </p>
 
             <div class="info">
                 <p><b>Země</b> můžeme otočit o 90° a tím přidat <a href="index6.html">manu</a> stejné barvy jako je barva danné země do svého
-                  <a href="index6.html">mana poolu</a>. Tu nyní můžeme využít k zahrání i jiných druhů karet např. <a href="index6.html">příšer</a>.</p>
+                   <i>mana poolu</i>. Odtud ji můžeme využít k zahrání jiných <a href="index6.html">druhů karet</a> např. příšer.</p>
               </div>
-              <br>
-         <div class="row">
-
-            <div class="col-md-6 col-sm-12 col-lg-3 col-xs-12">
-                <img style="margin-left: 10%; margin-right: 10%; width: 80%; height: 80%;" src="2_cost.jpg" alt="mana_cost">
-
-            </div>
-<div class="col-md-6 col-sm-12 col-lg-3 col-xs-12">
-    <p style="text-align: center; "><br>
-Karty jiného druhu než země mají tzv. <i>mana cost</i>, ten ukazuje kolik
- man potřebujeme k vyložení určité karty. Např. u karty <i>Bloodfire Colossus</i> budeme potřebovat 
- 2 červené a 6 bezbarvých (jakýchkoliv) man. Ty znázorňuje číslo v šedém kolečku. Celkově tedy otočíme 8 zemí.</p>
-</div>
-
-<div class="col-md-6 col-sm-12 col-lg-3 col-xs-12">
-    <img style="margin-left: 10%; margin-right: 10%; width: 80%; height: 80%;" src="Predator_Ooze.jpg" alt="mana_cost">
-
-</div>
-<div class="col-md-6 col-sm-12 col-lg-3 col-xs-12">
-<p style="text-align: center;"><br>Příšery kromě svých <a href="index5.html">schopností</a> mají také své vlastní staty, které jsou 
-  zobrazeny v pravém dolním rohu. První číslice znázorňuje útočnou sílu a druhá životy.</p>
-</div>
-         
-        </div>
-<p>Hráči si každé kolo otočí své many do standartní polohy a líznou si novou kartu </p>
-<hr>
-        <p>Hra skončí když:</p> 
-        <ul>
-        <li>životy některého z hráčů klesnou na 0</li>
-        <li>nějakému hráči dojdou karty z balíčku</li>
-        <li>nějaká karta oznámí že hráč prohrál nebo vyhrál</li>
-        <li>hráč má 10 a více poison counterů</li>  
-       </ul> 
-
-        
+ 
+                    <div class="divi">
+                    <img src="2_cost.jpg" alt="Bloodfire Colossus">
+                    </div>
+                    
+                    <article class="articli"><p>
+                        Karty jiného druhu než země mají tzv. <i>mana cost</i>, ten ukazuje kolik
+                        man potřebujeme k vyložení určité karty. Např. u karty <i>Bloodfire Colossus</i> budeme potřebovat 
+                        2 červené a 6 bezbarvých (jakýchkoliv) man. Ty znázorňuje číslo v šedém kolečku. Celkově tedy otočíme 8 zemí.</p>
+                       <p> Příšery kromě svých <a href="index5.html">schopností</a> mají také své vlastní staty, které jsou 
+  zobrazeny v pravém dolním rohu. První číslice znázorňuje útočnou sílu a druhá životy(Ty se na konci kola vždy obnoví).</p>
+                    </article>
+                    
+                    <p style="text-align: justify;">K provedení útoku s příšerou ji otočíme o 90° , protihráč ji však může blokovat svými příšerami. Poté 
+                       dojde k udělování zranění. Pokud se protihráč rozhodne, že nebude blokovat, tak poškození schytá hráč (Na začátku má každý hráč 20 životů). 
+                       S příšerami můžeme cílovat pouze ostatní hráče nebo <a href="index6.html">planeswalkery</a>, ale nikdy jiné příšery.
+                    </p>
+                    <p><b>Hráči se ve svých tazích střídají dokud:</b></p> 
+                    <ul>
+                    <li>životy některého z hráčů klesnou na 0</li>
+                    <li>nějakému hráči dojdou karty z balíčku</li>
+                    <li>nějaká karta oznámí že hráč prohrál nebo vyhrál</li>
+                    <li>hráč má 10 a více poison counterů</li>  
+                   </ul> 
+                   
+            
         <div id="footer">
           Adam Štencl&copy; 2019
         </div>
